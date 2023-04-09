@@ -1,8 +1,9 @@
 import { ApiProperty } from '@nestjs/swagger';
 import { BaseEntity, Entity, Unique, PrimaryGeneratedColumn, Column, OneToMany } from 'typeorm';
-declare type UUIDType = string;
 
 import { Task } from '../tasks/tasks.entity';
+
+declare type UUIDType = string;
 
 export interface ILogin {
   login: string;
