@@ -20,7 +20,7 @@ import { UsersModule } from './resources/users/users.module';
       database: process.env.TYPEORM_DATABASE,
       url: process.env.TYPEORM_URL,
       port: 5432,
-      entities: [`${__dirname  }dist/**/*.entity{.ts,.js}`],
+      entities: [`${__dirname}dist/**/*.entity{.ts,.js}`],
       extra: {
         ssl: {
           rejectUnauthorized: false,
